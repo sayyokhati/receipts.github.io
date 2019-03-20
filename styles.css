@@ -9,15 +9,12 @@ body{
 h1{
 	font-family: fantasy;
 	font-size: 3em;
-	border-bottom: 2px solid pink;
-	border-right: 2px solid pink;
+	border-bottom: 0px solid pink;
+	border-right: 0px solid pink;
 	width: 400px;
 	text-align: center;
 }
 img{
-	width: 400px;
-	height: 300px;
-	margin: 10px;
 	transition: all 1s;
 }
 img:hover{
@@ -27,4 +24,7 @@ div{
 	transition-property: all;
 	transition-property: transform;
 	transition-duration: 3s;
+}
+.cart-body{
+	opacity: 0.5;
 }
