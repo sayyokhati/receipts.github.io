@@ -5481,7 +5481,7 @@ img {
 }
 
 .index-page .page-header {
-  height: 125vh;
+  height: 100px;
 }
 
 .index-page .page-header .container>.content-center {
@@ -5858,7 +5858,7 @@ img {
 }
 
 .page-header {
-  min-height: 100vh;
+  min-height: 400px;
   max-height: 999px;
   padding: 0;
   color: #FFFFFF;
@@ -6408,7 +6408,7 @@ img {
     margin-top: 0.3125rem;
   }
   .sidebar-collapse .navbar-collapse .navbar-nav:not(.navbar-logo) .nav-link:not(.btn) {
-    color: #FFFFFF !important;
+    color: #FFFFff !important;
   }
   .sidebar-collapse .navbar-collapse .dropdown-menu .dropdown-item {
     color: #FFFFFF;
