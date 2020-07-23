@@ -1,0 +1,131 @@
+
+body{
+	margin: auto 0;
+	/*font-family: Arial;*/
+}
+
+img{
+    width: 100%;
+    /*height: 120%;*/
+    margin: auto;
+    transition: all 1s;
+    border-radius: 25px;
+}
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.zone{
+	/*padding: 30px 50px;
+	margin: 40px 60px;*/
+	cursor: pointer;
+	/*display: inline-block;*/
+	color: #fff;
+	font-size: 2em;
+	border-radius: 25px;
+	/*border: 1px solid #bbb;*/
+	transition: all 0.3s linear;
+}
+
+.zone:hover{
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.box:hover {
+	-webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -o-transform:rotate(-7deg);
+    transform: rotate(-7deg)
+}
+
+/* NAV */
+
+.sticky{
+	/*position: fixed;*/
+	top: 10px;
+	width: 100%;
+    color: transparent;
+}
+
+.main-nav{
+	display: flex;
+	list-style: none;
+	font-size: 0.7em;
+	margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+	.main-nav{
+		font-size: 0.5em;
+		padding: 0;
+	}
+}
+
+.push{
+	margin-left: auto;
+}
+
+a{
+	color: rgba(5, 5, 5, 5.5);
+	text-decoration: none;
+    font-size: 40px;
+}
+h1{
+    
+  text-align: justify;
+  font-size: 20px;
+  margin: 1rem;
+}
+h4{
+	
+  text-align: justify;
+  line-height: 0.8;
+  font-size: 40px;
+  color: black;
+}
+
+/* COVER */
+.container > img{
+	display: relative;
+	/*align-items: center;*/
+	/*justify-content: center;*/
+    /*height: auto;*/
+	/*width: auto;*/
+    /*margin-top: 20px;*/
+    width: 1,720px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 260px;
+    margin-top: 10px;
+    /*margin-left: 0px;*/
+    /*margin-right: 200px;*/
+}
+
+/* GRID */
+.grid-wrapper{
+	display: grid;
+	/*grid-gap: 5px;*/
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.box > img{
+	width: 100%;
+	height: 100%;
+}
+
+.box{
+	/*background-color: #444;*/
+	margin: 20px;
+}
+
+footer{
+	text-align: center;
+    display: block;
+}
